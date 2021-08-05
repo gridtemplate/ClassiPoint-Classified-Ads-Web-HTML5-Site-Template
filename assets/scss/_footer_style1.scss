@@ -1,0 +1,450 @@
+
+
+
+/*===========================
+       11.FOOTER css 
+===========================*/
+
+
+.footer-area{
+    position:relative;
+      background: $footer-bg;
+
+
+
+    .subscribe_row{
+        background:$theme-color1;
+        -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+                @media #{$md}{
+                   
+        -webkit-transform: translateY(-15%);
+            -moz-transform: translateY(-15%);
+            -ms-transform: translateY(-15%);
+            transform: translateY(-15%);
+                }
+
+                @media #{$xs}{
+                   
+        -webkit-transform: translateY(-15%);
+            -moz-transform: translateY(-15%);
+            -ms-transform: translateY(-15%);
+            transform: translateY(-15%);
+                }
+
+
+
+            .col-lg-6{
+
+                @media #{$xs}{
+                   
+                    width: 100%;
+                }
+
+            }
+
+
+
+        .footer-subscribe-title{
+            h4{
+                text-transform: uppercase;font-family: $poppins;font-weight: 600;font-size: 45px;color: $white;
+
+                @media #{$lg}{
+                    
+                font-size: 35px;font-weight: 600
+                }
+                @media #{$md}{
+                   
+                font-size: 25px;font-weight: 600
+                }
+                @media #{$xs}{
+                   
+                font-size: 20px;font-weight: 600
+                }
+
+
+
+            }
+                @media #{$md}{
+                   
+                margin-bottom: 15px
+                }
+                @media #{$xs}{
+                   
+                margin-bottom: 15px
+                }
+
+        }
+
+        .subscribe-form{
+
+            position:relative;
+            input[type=email] {
+                height: 60px;
+                -webkit-border-radius: 5px;
+                border-radius: 3px;
+                padding: 15px 20px;
+                background: #F3F3F3;border: 0px;@include transition(0.3s); border: 1px solid transparent
+            }
+
+           input[type=email]:focus {
+                    border: 1px solid $theme-color1;@include transition(0.5s);border-radius: 3px;
+                }
+
+            button[type=submit] {
+                height: 60px;position:absolute;right: 0;top: 0;
+                    @media #{$md}{
+                       position:static;
+                    }
+                    @media #{$xs}{
+                      position:static;
+                    }
+
+
+            }
+                .main-btn-inline-subscribe{
+
+                    @media #{$md}{
+                       width: 100% !important;margin-top: 15px ;
+                    }
+                    @media #{$xs}{
+                      width: 100% !important;margin-top: 15px ;
+                    }
+
+                    display: inline-block;
+                  vertical-align: middle;
+                  -webkit-transform: perspective(0) translateZ(0);
+                  transform: perspective(0) translateZ(0);
+                  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+                  -webkit-transition-property:$heading-color;
+                  transition-property: $heading-color;
+                  -webkit-transition-duration: 0.5s;
+                  transition-duration: 0.5s;
+                color: $white;
+                background: $heading-color;border-radius: 4px;
+                    &::before{
+                      content: "";
+                      position: absolute;
+                      z-index: -1;
+                      top: 0;
+                      left: 0;
+                      right: 0;
+                      bottom: 0;
+                     
+                      background: $theme-color1;
+                      -webkit-transform: scaleY(0);
+                      transform: scaleY(0);
+                      -webkit-transform-origin: 50% 0;
+                      transform-origin: 50% 0;
+                      -webkit-transition-property: transform;
+                      transition-property: transform;
+                      -webkit-transition-duration: 0.5s;
+                      transition-duration: 0.5s;
+                      -webkit-transition-timing-function: ease-out;
+                      transition-timing-function: ease-out;border-radius: 4px;
+
+                      }
+
+            }
+
+
+
+        }
+              &:hover{
+                @include transition(0.5s);
+
+
+                .main-btn-inline-subscribe{
+
+
+                    
+
+                      &::before{
+                      -webkit-transform: scaleX(1);color: $white !important;
+                      transform: scaleX(1);
+                      -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+                      transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+
+                      }
+                      &::before{
+                      -webkit-transform: scaleX(1);
+                      transform: scaleX(1);
+                      -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+                      transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+
+                      }
+                      &:active:before{
+                      -webkit-transform: scaleX(1);
+                      transform: scaleX(1);
+                      -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+                      transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+
+                    }
+                      
+                }
+
+              }
+
+
+    }
+
+
+
+    & .footer-title{
+        color: $white;
+        font-size: 30px;
+        font-weight: 600;
+        text-transform: capitalize;
+
+            @media #{$lg} {
+                font-size: 25px;
+
+            }
+            @media #{$md} {
+                font-size: 25px;
+
+            }
+            @media #{$sm} {
+                font-size: 25px;
+
+            }
+
+    }
+
+
+
+    .footer-widget{
+        position:relative;z-index: 1
+    }
+
+
+
+
+
+
+
+.footer-address{
+        
+    .footer-text{
+      p{
+        color: #ddd;
+      }
+    }
+
+    & .single-address{
+      
+        
+        & .address-icon{
+            & i{
+                width: 40px;
+                height: 40px;
+                text-align: center;
+                line-height: 40px;
+                border-radius: 50%;
+                font-size: 20px;
+              
+                color: #ddd;
+            }
+        }
+        & .address-content{
+            padding-left: 10px;
+            
+            & .text{
+                color: #ddd;line-height: 35px;
+            }
+        }
+    }
+}
+
+.footer-link{
+    & ul{
+        padding-top: 7px;
+        
+        & li{
+            padding-top: 10px;line-height: 30px;
+            
+            & a{
+                font-size: 18px;
+                color: #D8D8D8;
+                @include transition(0.3s);position:relative;
+                
+                &:hover{
+                    color: $theme-color1;@include transition(0.5s);padding-left: 15px;
+                }
+
+
+
+                &::before{
+
+                  position: absolute;
+                  top: 50%;
+                  left: 0;
+                  bottom: 0;
+                  width: 10px;
+                  height: 3px;
+                  content: "";
+                  background-color: $white;
+                  transform: translateY(-50%);
+                  opacity: 0;
+                  transition: all 500ms ease;
+
+                }
+                &:hover::before{
+                      opacity: 1;
+                }
+
+            }
+        }
+    }
+
+
+
+}
+
+.pt-100{
+    @media #{$md} {
+        padding-top: 60px;
+
+    }
+}
+
+.pt-100{
+    @media #{$xs} {
+        padding-top: 50px;
+
+    }
+}
+
+
+
+
+
+
+.footer-copyright{
+      background: $footer-bg;
+
+        .copyright-section{
+            position:relative;z-index: 1;
+                border-top: 1px solid rgba($white, 0.14);
+                padding: 25px 0;
+
+        }
+
+
+
+        .copyright{
+
+
+            & .text{
+
+                font-size: 14px;
+                color: $white;
+                
+                & a{
+                    color: $white; @include transition(0.3s);
+                    &:hover{
+                        color:$theme-color1; @include transition(0.5s);
+                    }
+                }
+            }
+        }
+
+        .footer-bottom{
+
+            .payment-icons{
+                    @media #{$md}{
+                       text-align:center;
+                    }
+                    @media #{$xs}{
+                      text-align:center;
+                    }
+            }
+
+
+
+
+
+
+
+        }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+             
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*===== BACK TO TOP =====*/
+
+.back-to-top{
+    font-size: 15px;
+    color: $white;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: $theme-color1;
+    text-align: center;
+    z-index: 99;border-radius: 2px;
+    @include transition(0.3s);
+    display: none;
+    
+    &:hover{
+        color: $white;-webkit-transform: translate3d(0,-5px,0);
+    transform: translate3d(0,-5px,0);
+        background-color: $theme-color1;@include transition(0.5s);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+

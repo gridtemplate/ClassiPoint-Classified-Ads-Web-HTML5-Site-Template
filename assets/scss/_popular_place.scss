@@ -1,0 +1,111 @@
+/*===========================
+  07.  Popular Places CSS
+===========================*/
+
+
+.popular_places{
+
+
+
+
+
+
+
+      .place-grid{
+            position:relative;overflow: hidden;
+            a{
+                  width: 100%;
+            }
+
+            .thumb{
+              overflow: hidden;
+              position: relative; @include transition(0.3s);    border-radius: 5px;
+              & img{
+                  width: 100%;
+                  @include transition(0.3s);display: block;
+
+                 height: 350px;
+                @media #{$xs}{
+                   
+                    height: auto;
+                }
+
+
+              }
+
+              &::before{
+              position: absolute;
+                  content: "";
+                  left: 0;
+                  top: 0;
+                  height: 100%;
+                  width: 100%;
+                  background: #162560;
+                  opacity: 0;
+                  @include transition(0.3s);
+                  z-index: 9;
+              }
+
+
+
+            }
+
+            .places-btn{
+                  position:absolute;left: 0;right: 0;bottom:5%;
+                  z-index: 12;
+                     @media #{$md}{
+                          bottom:8%;
+                      }
+                      @media #{$xs}{
+                         bottom:8%;
+                      }
+                  a.btn{
+                       font-size: 26px;
+                      width: 80%;
+                      height: 80px;
+                      line-height: 48px;
+                      @media #{$lg}{
+                         font-size: 20px;
+                          height: auto;line-height: 40px;font-size: 22px;
+                      }
+                      @media #{$md}{
+                         width: 80%;height: auto;line-height: 40px;font-size: 22px;
+                      }
+                      @media #{$xs}{
+                         width: 80%;
+                            height: auto;line-height: 40px;font-size: 22px;
+                      }
+
+
+                  }
+            }
+
+
+        &:hover{
+            @include transition(0.5s);
+            & .thumb{
+                & img{
+                    @include transform(scale(1.2) rotate(
+-7deg
+));@include transition(0.5s);
+                }
+                &::before{
+                    opacity: 0.8;
+                }
+            }
+
+
+
+        }
+
+      }
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,93 @@
+
+
+
+/*===========================
+    004.   CONACT css 
+===========================*/
+
+
+.contact_info{
+    .section_title{
+        h4{
+            font-size: 40px;
+        }
+        p{
+            margin-top: 10px;
+        }
+    }
+}
+
+p{
+    &.form-message.success,
+    &.form-message.error {
+        font-size: 18px;
+
+        margin-top: 30px;
+
+        
+color: #842029;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+            padding: 1rem 1rem;
+            margin-bottom: 1rem;
+            border: 1px solid transparent;
+            border-radius: .25rem;
+
+        &.form-message.error{
+            color: #f00;
+        }
+    }
+}
+
+.single_info{
+    & .info_icon{
+        & i{
+            width: 45px;
+            height: 45px;
+            line-height: 43px;
+            text-align: center;
+            border: 1px solid $theme-color1;
+            border-radius: 50%;
+            font-size: 22px;
+            color: $theme-color1;
+            position:relative;
+           &::before {
+                   position: absolute;
+    left: 0;
+    top: 9px;
+    right: 0;
+    bottom: 0;
+                }
+        }
+    }
+    & .info_content{
+        padding-left: 20px;
+        
+        & p{}
+    }
+}
+
+.contact_form{}
+
+.single_form{
+    & textarea,
+    & input{
+        width: 100%;
+        height: 55px;
+        border: 1px solid $theme-color1;
+        border-radius: 3.5px;;
+        padding: 0 25px;
+        color: $body-color;
+        font-size: 16px;
+    }
+    
+    & textarea{
+        height: 150px;
+        padding-top: 15px;
+        resize: none;
+        border-radius: 3.5px;
+    }
+}
+
+
+

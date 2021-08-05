@@ -1,0 +1,39 @@
+/*===========================
+  11  Our Sponsor  css 
+===========================*/
+
+
+
+.col-sponsor{
+
+    flex: 0 0 auto;
+    width: 20%;
+
+
+	  @media #{$md} {
+
+    flex: 0 0 auto;
+    width: 20%;
+
+
+
+	  }
+
+	  @media #{$xs} {
+
+    flex: 0 0 auto;
+    width: 50%;
+    margin: 10px 0px;
+
+
+
+	  }
+
+
+
+    
+
+}
+
+
+

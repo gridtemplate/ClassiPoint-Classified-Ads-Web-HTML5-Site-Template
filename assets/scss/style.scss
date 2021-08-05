@@ -1,0 +1,80 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: ClassiPoint - Classified Ads Web  HTML5 Site Template -  GridTemplate
+    Template URI: https://gridtemplate.com/
+    Description: A Library of Responsive Bootstrap, HTML5, and CSS3 Website Templates
+    Author: Gridtemplate
+    Author URI: https://gridtemplate.com/
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+    01. Theme default CSS
+	02. Header1
+    03. banner1
+    04. popular_categories
+    05. most_popular_ads
+    06. testimonials
+    07. popular_place
+    08. pricing
+    09. counter
+    10. blog
+    11. footer_style1
+
+
+
+
+    // Inner Pages 
+    001. breadcrumbs1
+    002. about_us
+    003. single_post
+    004. contact
+
+
+
+
+
+    
+
+-----------------------------------------------------------------------------------*/
+
+@import 'variables';
+@import 'mixin';
+@import 'common';
+@import 'header_style1';
+@import 'banner1';
+@import 'popular_categories';
+@import 'most_popular_ads';
+@import 'testimonials';
+@import 'popular_place';
+@import 'pricing';
+@import 'counter';
+@import 'blog';
+
+
+
+
+
+//Inner page css
+
+@import 'breadcrumbs1';
+@import 'about_us';
+
+@import 'single_post';
+@import 'contact';
+
+
+@import 'footer_style1';
+
+
+
+
+
+
+
+
+
+

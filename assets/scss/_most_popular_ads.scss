@@ -1,0 +1,342 @@
+/*===========================
+05. Most popular ads css 
+===========================*/
+
+
+.most-popular-area{
+
+background:$gray-bg;
+
+
+
+
+
+
+  .most-popular-list{
+    ul.nav{
+      li.nav-item{
+
+          @media #{$md}{
+             width: 140px;height: 50px;
+          }
+          @media #{$xs}{
+             width: 100%;
+                height: 50px;
+          }
+
+        button.nav-link{
+          font-size: 18px;font-family: $roboto;font-weight: 500;color:$heading-color;background:#FFE3E7;border-radius:3px;width: 180px;height: 60px;
+          @media #{$md}{
+             width: 140px;height: 50px;
+          }
+          @media #{$xs}{
+             width: 100%;
+                height: 50px;
+          }
+
+
+        }
+        button.active{
+            background:$theme-color1;color: $white;
+          }
+      }
+    }
+
+  }
+  .most-popular-content{
+
+    .tab-content{
+
+
+      .most-popular-card{
+border-radius: 5px;
+  box-shadow: 0 0 50px 0 rgba(165, 165, 165, 0.16);background:$white;
+
+
+
+          .most-popular-image{
+              overflow: hidden;
+              position: relative; @include transition(0.3s);    border-radius: 5px;
+              & img{
+                  width: 100%;
+                  @include transition(0.3s);
+              }
+
+              &::before{
+              position: absolute;
+                  content: "";
+                  left: 0;
+                  top: 0;
+                  height: 100%;
+                  width: 100%;
+                  background: #162560;
+                  opacity: 0;
+                  @include transition(0.3s);
+                  z-index: 9;
+              }
+
+              
+          }
+
+
+
+        .ads-info{
+          padding:30px; overflow: hidden;
+                  @media #{$lg}{
+                      padding:20px
+                  }
+
+          .post-meta{
+            overflow: hidden;padding-bottom:20px;
+            ul.list-unstyled{
+              li{
+            margin: 0;
+            text-align: center;
+            display: inline-block;
+            margin-left: 10px;
+                a{
+                  font-size: 18px;color: $body-color;@include transition(0.3s);
+                  @media #{$xs}{
+                     font-size: 14px;
+                  }
+
+                  i{
+                    display: inline-block;
+                    color: $body-color;
+                    margin-right: 4px;
+                    font-size: 22px;
+                    position: relative;@include transition(0.5s);
+                  @media #{$lg}{
+                     font-size: 20px;
+                  }
+                  @media #{$md}{
+                     font-size: 18px;
+                  }
+                  @media #{$xs}{
+                     font-size: 18px;
+                  }
+
+                    &::before {
+                            position: absolute;
+                  left: -30px;
+    top: -15px;
+                    }
+
+
+
+                  }
+
+                    &:hover{
+
+                      color: $theme-color1;@include transition(0.5s);;
+                    }
+
+                }
+
+
+
+              }
+            
+              li:first-child {
+                  float: left;padding-left: 15px;
+              }
+              li:last-child {
+                  float: right;padding-left: 0px;margin-left:0px;
+
+                a{
+                  font-size: 18px;color: $body-color;
+                  @media #{$xs}{
+                     font-size: 14px;
+                  }
+
+                  i{
+                
+                    &::before {
+                            position: absolute;left: -16px;top: -15px;
+                    }
+
+                    &:hover{
+
+                      color: $theme-color1;@include transition(0.5s);;
+                    }
+
+                  }
+                }
+
+              }
+
+
+            }
+          }
+          .most-popular-content{
+          padding-bottom: 20px;
+          border-bottom: 1px solid#ddd; overflow: hidden;
+          margin-bottom: 30px;
+            h5.most-popular-title{
+              font-size: 24px;font-family: $poppins;color: $heading-color;padding-bottom: 30px;font-weight: 600;
+
+                      @media #{$lg}{
+                          font-size: 19px;padding-bottom: 20px;
+                      }
+                      @media #{$md}{
+                          font-size: 20px;padding-bottom: 20px;
+                      }
+                      @media #{$xs}{
+                         font-size: 20px;padding-bottom: 20px;
+                      }
+            }
+            h3{
+              font-size: 20px;font-family: $poppins;color: $theme-color1;font-weight: 600;
+              span{
+                 font-size: 14px;font-family: $poppins;color: $theme-color1;font-weight: 500;
+              }
+            }
+          }
+          .most-popular-list{
+            overflow: hidden;
+            ul{
+              li{
+            margin: 0;
+            text-align: center;
+            display: inline-block;
+            margin-left: 5px;
+                a{
+                  font-size: 18px;color: $body-color;@include transition(0.3s);
+                  @media #{$lg}{
+                     font-size: 14px;
+                  }
+                  @media #{$md}{
+                     font-size: 14px;
+                  }
+                  @media #{$xs}{
+                     font-size: 14px;
+                  }
+
+                  i{
+                    display: inline-block;
+                    color: $body-color;
+                    margin-right: 4px;
+                    font-size: 22px;
+                    position: relative;@include transition(0.5s);
+                  @media #{$lg}{
+                     font-size: 20px;
+                  }
+                  @media #{$md}{
+                     font-size: 18px;
+                  }
+                  @media #{$xs}{
+                     font-size: 18px;
+                  }
+
+                    &::before {
+                            position: absolute;
+                              left: -25px;
+                             top: -16px;
+
+                  @media #{$lg}{
+                    top: -14px;
+                  }
+                  @media #{$md}{
+                    top: -14px;
+                  }
+                  @media #{$xs}{
+                    top: -14px;
+                  }
+
+
+                    }
+
+                    &:hover{
+
+                      color: $theme-color1;@include transition(0.5s);
+                    }
+
+                  }
+
+                    &:hover{
+
+                      color: $theme-color1;@include transition(0.5s);
+                    }
+
+                }
+
+
+
+              }
+            
+              li:first-child {
+                  float: left;padding-left: 15px;
+              }
+              li:last-child {
+                  float: right;padding-left: 0px;margin-left:0px;
+
+
+
+              }
+
+
+            }
+          }
+
+
+        }
+
+        &:hover{
+            @include transition(0.5s);
+            & .most-popular-image{
+                & img{
+                    @include transform(scale(1.2) rotate(
+-7deg
+));@include transition(0.5s);
+                }
+                &::before{
+                    opacity: 0.8;
+                }
+            }
+
+
+
+        }
+
+
+
+
+
+      }
+
+
+
+
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

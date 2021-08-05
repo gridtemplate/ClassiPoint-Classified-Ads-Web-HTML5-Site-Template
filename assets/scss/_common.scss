@@ -1,0 +1,755 @@
+
+
+/*===========================
+    1. COMMON css 
+===========================*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+ body {
+	font-family: $roboto;
+	font-weight: normal;
+	font-style: normal;
+    color: $body-color;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    @include box-sizing (border-box);
+}
+
+img {
+	max-width: 100%;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+a:focus,
+a:hover{
+	text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;@include transition(0.5s);color: $theme-color1;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+a {
+   
+    text-decoration: none !important;color: $heading-color;@include transition(0.3s);
+}
+a.logo{
+  display: block;
+}
+i,
+span,
+a{
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $poppins;
+	font-weight: 600;
+	color: $heading-color;
+	margin: 0px;
+}
+
+h1 {
+	font-size: 48px;
+}
+h2 {
+	font-size: 36px;
+}
+h3 {
+	font-size: 28px;
+}
+h4 {
+	font-size: 22px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 16px;
+}
+ul,ol {
+	margin: 0px;
+	padding: 0px;
+    list-style-type: none;
+}
+
+p {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 25px;
+	color: $body-color;
+	margin: 0px;
+}
+.bg_cover{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.gray{
+  background:$gray-bg;
+}
+
+.btn-check:active+.btn-primary:focus, .btn-check:checked+.btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0;
+}
+
+
+
+
+
+// others common css here
+
+
+
+
+/*===== All Default Button Style =====*/
+.btn:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+   outline: 0;
+}
+.btn:focus {
+  outline: none !important;
+}
+.btn:focus {
+  box-shadow: none;
+}
+.header_area .button {
+    display: inline-block;
+    margin-left: 45px;
+}
+
+
+
+
+.btn-inline {
+width: 180px;
+padding: 15px 10px;
+border: 0px solid $white;position: relative;
+  &:hover{
+  color:  $white !important;
+
+
+  }
+  &:focus{
+  color:  $white !important;
+
+
+  }
+        @media #{$lg}{
+            padding: 14px;
+        }
+        @media #{$md}{
+            padding: 14px 10px;
+        }
+        @media #{$xs}{
+            padding: 14px 10px;
+        }
+
+} 
+.btn-inline-search {
+width: 150px;
+padding: 15px 10px;
+border: 0px solid $white;position: relative;
+  &:hover{
+  color:  $white !important;
+
+
+  }
+  &:focus{
+  color:  $white !important;
+
+
+  }
+        @media #{$lg}{
+            padding: 10px;
+        }
+        @media #{$md}{
+            padding: 10px;
+        }
+        @media #{$xs}{
+            padding: 10px;
+        }
+
+} 
+
+
+.main-btn{
+    display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(0) translateZ(0);
+  transform: perspective(0) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-property: $theme-color1;
+  transition-property: $theme-color1;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+color: $heading-color;
+background: $theme-color1;color: $white;
+
+    font-size: 18px;
+    &::before{
+      content: "";
+      position: absolute;
+      z-index: -2;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 3.5px;
+      background: $naviblue-bg;
+      -webkit-transform: scaleY(0);
+      transform: scaleY(0);
+      -webkit-transform-origin: 50% 0;
+      transform-origin: 50% 0;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+      -webkit-transition-duration: 0.5s;
+      transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease-out;
+      transition-timing-function: ease-out;
+
+      }
+      &:hover::before{
+      -webkit-transform: scaleY(1);color: $white !important;
+      transform: scaleY(1);
+      -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+      transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+
+      }
+      &:focus:before{
+      -webkit-transform: scaleY(1);
+      transform: scaleY(1);
+      -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+      transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+
+      }
+      &:active:before{
+      -webkit-transform: scaleY(1);
+      transform: scaleY(1);
+      -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+      transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+
+    }
+      &:focus{
+     color: $white;
+      
+
+    }
+}
+
+
+
+/*===== All Default Button Style End =====*/
+
+
+
+
+// Contact input css
+
+    textarea,
+     input{
+        width: 100%;
+        height: 55px;
+        border: 1px solid $heading-color;
+        border-radius: 5px;
+        padding: 0 25px;
+        color: $body-color;
+        font-size: 16px;background: $white;@include transition(0.3s);
+    }
+    
+    textarea{
+        height: 150px;
+        padding-top: 15px;
+        resize: none;
+        border-radius: 5px;background:  $white;@include transition(0.3s);
+    }
+     input:focus {
+       border: 1px solid $theme-color1;@include transition(0.5s);
+    }
+     textarea:focus {
+       border: 1px solid $theme-color1;@include transition(0.5s);
+    }
+
+
+
+
+
+.button{
+     max-width: 190px;
+
+          @media #{$lg} {
+              max-width: 150px;
+          }
+
+          @media #{$md} {
+              max-width: 140px;
+          }
+
+          i{
+            position:relative;
+            &::before{
+              position: absolute;
+    right: -25px;
+    top: -13px;
+
+          @media #{$lg} {
+                  right: -20px;
+    top: -13px;
+          }
+
+          @media #{$md} {
+                  right: -20px;
+    top: -13px;
+          }
+
+
+            }
+          }
+
+          .main-btn{
+          @media #{$lg} {
+              max-width: 145px;
+          }
+
+          @media #{$md} {
+              max-width: 140px;
+          }
+            
+          }
+
+}
+
+
+
+
+
+
+
+
+
+// Warning error msg
+
+
+.error-content{
+    h2{
+        font-size: 100px;font-weight: 700;color: $theme-color1;
+
+        @media #{$lg}{
+            font-size: 80px;    padding-bottom: 20px;
+        }
+        @media #{$md}{
+            font-size: 60px;    padding-bottom: 20px;
+        }
+        @media #{$xs}{
+            font-size: 50px;    padding-bottom: 20px;
+        }
+    }
+    span{
+         font-size: 50px;font-weight: 600;color: $theme-color1;text-transform: uppercase;
+        @media #{$lg}{
+            font-size: 35px;    padding-bottom: 20px;
+        }
+        @media #{$md}{
+            font-size: 35px;    padding-bottom: 20px;
+        }
+        @media #{$xs}{
+            font-size: 30px;    padding-bottom: 20px;
+        }
+
+    }
+}
+
+.back_btn{
+   .btn{
+     width: 100%;margin: 0px auto;
+   }
+}
+
+
+
+
+
+
+/*===== All Section Title Style =====*/
+
+.section-title{
+  position:relative;
+    & .title{
+        font-size: 45px;text-transform: capitalize;padding-bottom: 20px;
+        
+        @media #{$lg}{
+            font-size: 35px;    padding-bottom: 15px;
+        }
+        @media #{$md}{
+            font-size: 35px;    padding-bottom: 15px;
+        }
+        @media #{$xs}{
+            font-size: 30px;    padding-bottom: 15px;
+        }
+ 
+    }
+    p{
+
+        @media #{$xs}{
+            font-size: 15px;
+        }
+
+    }
+    margin-bottom: 30px;
+        @media #{$xs}{
+            margin-bottom: 20px;
+        }
+
+}
+
+
+
+
+
+.pt-120{
+
+    @media #{$lg} {
+         padding-top: 100px
+    }
+    @media #{$md} {
+         padding-top: 80px
+    }
+    @media #{$xs} {
+         padding-top: 60px
+    }
+
+
+
+}
+.pb-120{
+
+    @media #{$lg} {
+         padding-bottom: 100px
+    }
+    @media #{$md} {
+         padding-bottom: 80px
+    }
+    @media #{$xs} {
+         padding-bottom: 60px
+    }
+
+
+
+}
+
+.pb-130{
+
+    @media #{$lg} {
+         padding-bottom: 100px
+    }
+    @media #{$md} {
+         padding-bottom: 80px
+    }
+    @media #{$xs} {
+         padding-bottom: 60px
+    }
+
+
+
+
+}
+
+.pt-130{
+
+    @media #{$lg} {
+         padding-top: 100px
+    }
+    @media #{$md} {
+         padding-top: 80px
+    }
+    @media #{$xs} {
+         padding-top: 60px
+    }
+
+
+
+
+}
+.pb-150{
+
+    @media #{$lg} {
+         padding-bottom: 100px
+    }
+    @media #{$md} {
+         padding-bottom: 80px
+    }
+    @media #{$xs} {
+         padding-bottom: 60px
+    }
+
+
+
+
+}
+
+.pt-150{
+
+    @media #{$lg} {
+         padding-top: 100px
+    }
+    @media #{$md} {
+         padding-top: 80px
+    }
+    @media #{$xs} {
+         padding-top: 60px
+    }
+
+
+
+
+}
+
+.pb-100{
+
+    @media #{$lg} {
+         padding-bottom: 80px
+    }
+    @media #{$md} {
+         padding-bottom: 60px
+    }
+    @media #{$xs} {
+         padding-bottom: 60px
+    }
+
+
+
+
+}
+
+.pt-100{
+
+    @media #{$lg} {
+         padding-top: 80px
+    }
+    @media #{$md} {
+         padding-top: 60px
+    }
+    @media #{$xs} {
+         padding-top: 60px
+    }
+
+
+
+
+}
+
+
+
+.mt-80{
+
+    @media #{$md} {
+         margin-top: 40px
+    }
+    @media #{$xs} {
+         margin-top: 30px
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/*===== All Form Style =====*/
+
+.single-form {
+    margin-top: 28px;
+
+    & label {
+        display: inline-block;
+        color: $heading-color;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    & .required {
+        display: inline-block;
+        color: $heading-color;
+        font-size: 14px;
+        float: right;
+    }
+
+    & textarea,
+    & input {
+        width: 100%;
+        background-color: $white;
+        border: 1px solid $heading-color;
+        border-radius: 2px;
+        color: $heading-color;
+        display: block;
+        height: 48px;
+        box-shadow: none;
+        padding: 0 15px;
+        font-size: 14px;
+        
+        &:focus{
+            border-color: $theme-color1;
+        }
+    }
+    
+    & textarea{
+        padding-top: 10px;
+        height: 200px;
+        resize: none;
+    }
+
+    & .nice-select {
+        float: none;
+        border: 1px solid $heading-color;
+        width: 100%;
+        border-radius: 0;
+        height: 48px;
+        padding: 0 15px;
+
+        &::after {
+            width: 8px;
+            height: 8px;
+            border-color: $heading-color;
+            right: 15px;
+        }
+
+        & .current {
+            line-height: 48px;
+        }
+
+        & .list {
+            width: 100%;
+            border-radius: 0;
+
+            & .option {
+                min-height: 28px;
+                line-height: 28px;
+            }
+        }
+    }
+}
+
+
+
+
+
+/*===== All Preloader Style =====*/
+
+.preloader{
+    /* Body Overlay */
+    position: fixed;
+    top: 0;
+    left: 0;
+    display:  table;
+    height: 100%;
+    width:  100%;
+    /* Change Background Color */
+    background: $white;
+    z-index: 99999;
+    
+    & .loader{
+        display: table-cell;
+        vertical-align:  middle;
+        text-align: center;
+        
+      
+
+
+
+            #inner-preloader {
+              /* Uncomment this to make it run! */
+              /*
+                 animation: loader 5s linear infinite; 
+              */
+              
+              position: absolute;
+              top: calc(50% - 20px);
+              left: calc(50% - 20px);
+            }
+            @keyframes loader {
+              0% { left: -100px }
+              100% { left: 110%; }
+            }
+            #box {
+              width: 50px;
+              height: 50px;
+              background: $theme-color1;
+              animation: animate .5s linear infinite;
+              position: absolute;
+              top: 0;
+              left: 0;
+              border-radius: 3px;
+            }
+            @keyframes animate {
+              17% { border-bottom-right-radius: 3px; }
+              25% { transform: translateY(9px) rotate(22.5deg); }
+              50% {
+                transform: translateY(18px) scale(1,.9) rotate(45deg) ;
+                border-bottom-right-radius: 40px;
+              }
+              75% { transform: translateY(9px) rotate(67.5deg); }
+              100% { transform: translateY(0) rotate(90deg); }
+            } 
+            #shadow { 
+              width: 50px;
+              height: 5px;
+              background: #000;
+              opacity: 0.1;
+              position: absolute;
+              top: 59px;
+              left: 0;
+              border-radius: 50%;
+              animation: shadow .5s linear infinite;
+            }
+            @keyframes shadow {
+              50% {
+                transform: scale(1.2,1);
+              }
+            }
+
+
+
+
+
+    }
+}
+
+
+
+
+

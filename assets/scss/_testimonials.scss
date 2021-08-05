@@ -1,0 +1,194 @@
+
+
+
+/*===========================
+    06.  Client Testimonials
+===========================*/
+
+
+
+
+// Testimonials
+
+.client_testimonials{
+
+
+background:$naviblue-bg;position: relative;
+
+
+
+
+
+         @media #{$md} {
+                height: auto; padding: 80px 0;
+          }
+
+          @media #{$xs} {
+                height: auto; padding: 80px 0;
+          }
+
+          @media #{$sm} {
+                    height: auto; padding: 60px 0;
+          }
+
+        .section_title{
+
+
+            h2.title{
+                color: $heading-color;
+            }
+        }
+
+        .testimonial1{
+
+
+
+
+
+
+
+
+
+            .client_single_info{
+                position: relative;
+                    &::before{
+                        position: absolute;
+                        left: 32px;
+                        top: 34px;
+                        width: 54px;
+                        height: 46px;
+                        content: "";
+                        background: url(../images/icons/quote-left.png) no-repeat;
+                        z-index: 999;
+
+                    }
+
+
+                border-radius: 5px;
+                  
+                    background-color:#424e71;padding:100px 15px 30px 15px;
+
+
+                .client_thumb{
+
+                    img{
+                        display: inline-block;text-align: center;margin: 0px auto;
+                         box-shadow: 0 0 50px 0 rgba(162, 162, 162, 0.16);
+  border: solid 8px $white;border-radius: 200px;    position: absolute;
+    bottom: -70px;
+    right: 0;
+    left: 0;
+                    }
+
+                    h5{
+                        color: $white;font-size: 25px;font-weight: 500
+                    }
+                    span{
+                         color: $body-color;font-size: 16px;text-transform: uppercase;
+                    }
+
+
+
+
+
+
+                }
+  
+
+                                  p{
+                          color: $white;  
+                        }
+
+
+            }
+
+
+            .slick-slide {
+                outline: none
+            }
+
+
+            & .slick-dots{
+                width: 100%;
+                text-align: center;
+              
+                
+                & li{
+                    display: inline-block;
+                    margin: 0 3px;
+                    
+                    & button{
+                            width: 15px;
+    height: 5px;
+                       background: #424e71;
+                       border-radius: 2px;
+                       
+                        font-size: 0;
+                        @include transition(0.3s);
+                        border: none
+                    }
+                    
+                    &.slick-active{
+                        & button{
+                            background: $theme-color1;    width: 25px;
+                        }
+                    }
+                }
+            }
+
+        .rating_list{
+            ul{
+            list-style: outside none none;
+                margin: 0;
+                padding: 0;
+                
+              
+                @media #{$md} {
+                    text-align: center;margin-top: 15px
+                }
+
+                @media #{$xs} {
+                    text-align: center;margin-top: 15px
+                }
+
+
+                li{
+                    display: inline-block;
+                    
+                   
+                    
+                         i{
+                            color:#f08244
+                            
+
+                          
+                          }
+                    
+                }
+            }
+
+        }
+
+
+
+
+
+        }
+ 
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+

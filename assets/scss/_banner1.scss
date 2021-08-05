@@ -1,0 +1,209 @@
+
+/*===========================
+   03 Banner 1 css 
+===========================*/
+
+.hero-area{
+position: relative;
+   
+   
+    height: 900px;
+    background:#162560 url(../images/banner/01.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+
+
+            
+            @media #{$lg}{
+                height: 650px;
+            }
+            @media #{$md}{
+                height: auto;padding:80px 0px;
+            }
+            @media #{$xs}{
+                height: auto;padding:60px 0px;
+            }
+
+
+
+            &::before{
+            position: absolute;
+            content: "";
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background:#162560;opacity: 0.8
+
+            }
+
+
+
+
+
+
+            // Hero Contents 
+            .header_hero_content{
+                position:relative;
+
+
+
+
+                .hero-heading{
+                    padding-bottom:60px;
+                    h1{
+                        font-size: 60px;color: $white;font-family: $poppins;padding-bottom:30px;
+                       
+                        @media #{$lg}{
+                           font-size: 45px
+                        }
+                        @media #{$md}{
+                             font-size: 40px
+                        }
+                        @media #{$xs}{
+                            font-size: 35px
+                        }
+
+                    }
+                    p{
+                        color: $white;
+                    }
+
+
+                }
+
+                .hero-search-row{
+                    position:relative;padding:20px;
+                    &::before{
+                    position: absolute;
+                    content: "";
+                    left: 0;
+                    top: 0;
+                    height: 100%;
+                    width: 100%;border-radius:3px;
+                    background:#fff;opacity: 0.8
+
+                    }
+
+
+                    .row{
+                        position:relative;z-index: 12;
+                    }
+
+                    .search-input{
+                     
+                        @media #{$xs}{
+                           margin-top: 10px;
+                        }
+
+
+                         input,select{
+                            width: 100%;
+                            height: 60px;
+                            border: 1px solid $white;
+                            border-radius: 3px;
+                            padding: 0 25px;
+                            color: $body-color;
+                            font-size: 16px;background: $white;@include transition(0.3s);font-family: $roboto;
+
+
+
+                        }
+                         input::-webkit-input-placeholder {
+                          color: $body-color;
+                        }
+                         input:-ms-input-placeholder {
+                          color: $body-color;
+                        }
+                         input::-ms-input-placeholder {
+                          color: $body-color;
+                        }
+                         input::placeholder {
+                          color: $body-color;
+                        }
+
+                        .nice-select {
+                            span{
+                                 color: $body-color;font-size: 16px;    padding: 5px 0px;font-family: $roboto;
+                            }
+                            -webkit-tap-highlight-color: transparent;
+                            background-color: #fff;
+                            border-radius: 3px;
+                            border: solid 1px $white;
+              
+                            font-size: 16px;
+                            font-weight: normal;
+                            height: 60px;
+                            
+                        }
+
+                    }
+                    .search-button{
+                      
+                        @media #{$xs}{
+                            margin-top: 10px;
+                        }
+                            i{
+
+                            position:relative;
+                                    &::before {
+                                            position: absolute;
+                                  left: -18px;
+                                  top: -13px;
+                                        @media #{$lg}{
+                                            left: -12px;
+                                  top: -14px;
+                                        }
+                                        @media #{$md}{
+                                            left: -13px;
+                                  top: -13px;
+                                        }
+                                        
+
+
+                                    }
+
+
+                            }
+
+                        .btn-inline-search {
+                        width: 150px;
+                        
+                        border: 0px solid $white;position: relative;
+                         
+                           
+                            @media #{$lg}{
+                                height: 60px; width: 100px;
+                            }
+                            @media #{$md}{
+                                height: 60px;width: 100%;
+                            }
+                            @media #{$xs}{
+                               height: 50px;width: 100%;
+                            }
+
+                        } 
+
+
+
+                    }
+
+
+                }
+
+
+
+            }
+
+
+
+
+
+
+
+
+}

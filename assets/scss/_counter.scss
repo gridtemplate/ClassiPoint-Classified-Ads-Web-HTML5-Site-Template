@@ -1,0 +1,58 @@
+
+
+/*===========================
+     09 COUNTER css 
+===========================*/
+
+
+.counter_area{
+
+
+	background: $white;
+
+
+	.single_counter{
+                @media #{$md}{
+                   
+                margin-bottom: 20px;
+                }
+                @media #{$xs}{
+                   
+                margin-bottom: 20px;
+                }
+		span{
+			i{
+				color: $theme-color1;font-size:40px
+			}
+		}
+
+		h3.title{
+			color: $heading-color;font-size: 40px;font-weight: 600;
+                @media #{$lg}{
+                   
+                font-size: 35px
+                }
+
+                @media #{$md}{
+                   
+                font-size: 30px
+                }
+                @media #{$xs}{
+                   
+                font-size: 30px
+                }
+
+
+		}
+		p{
+			color: $heading-color;font-size: 18px;    padding-top: 15px;
+		}
+	}
+
+
+
+
+
+
+
+}

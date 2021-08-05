@@ -1,0 +1,82 @@
+/*===========================
+       002.  About Us css 
+===========================*/
+
+
+.about_us_section{
+
+
+
+    .about_thumb{
+        figure{
+            position:relative;margin:0px;
+            img{
+                border-radius:10px;
+                width: 100%;
+
+
+            }
+
+
+
+
+
+        }
+
+
+    }
+
+    .about-item{
+
+
+        .introe-icon{
+        border: 1px solid$theme-color1;
+            padding: 8px;
+            border-radius: 3px;
+            img{
+
+                @media #{$lg}{
+                    padding-top: 10px;
+                }
+                @media #{$md}{
+                    padding-top: 15px;
+                }
+            }
+        }
+        .about_info{
+              h4{
+                font-size: 24px;color: $heading-color;line-height: 30px;
+                @media #{$md}{
+                    font-size: 20px
+                }
+                @media #{$xs}{
+                     font-size: 20px
+                }
+
+               
+              }
+ 
+        }
+    }
+
+
+
+
+    @media #{$md}{
+                 .pl-0{
+            padding-left:15px;
+         } 
+         .section-title{
+            padding-top: 30px;
+         }
+    }
+    @media #{$xs}{
+         .pl-0{
+            padding-left:15px;
+         }  
+         .section-title{
+            padding-top: 30px;
+         } 
+    }
+
+}

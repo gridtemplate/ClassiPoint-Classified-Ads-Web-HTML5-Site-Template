@@ -1,0 +1,183 @@
+/*===========================
+  001. Breadcrumbs css 
+===========================*/
+
+
+.breadcrumbs_section{
+
+background:url("../images/normal/breadcrumbs-bg.jpg");
+-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position:relative;padding: 60px 0px;
+
+ 
+
+        &::before{
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background: $heading-color;
+          /* IE 8 */
+          -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+
+          /* IE 5-7 */
+          filter: alpha(opacity=80);
+
+          /* Netscape */
+          -moz-opacity: 0.8;
+
+          /* Safari 1.x */
+          -khtml-opacity: 0.8;
+
+          /* Good browsers */
+          opacity: 0.8;
+
+                    
+
+
+        }
+
+
+
+        .breadcrumbs{
+        
+        padding-bottom:10px; position:relative;
+
+          .breadcrumbs-content{
+            h1.page-title{
+              color: $white;padding-bottom:20px;font-size: 55px;
+              @media #{$lg}{
+                  font-size: 45px;    padding-bottom: 20px;
+              }
+              @media #{$md}{
+                  font-size: 40px;    padding-bottom: 20px;
+              }
+              @media #{$xs}{
+                  font-size: 35px;    padding-bottom: 20px;
+              }
+            }
+            p{
+              color: $white;
+            }
+
+              color: $white;
+              @media #{$md}{
+                    padding-bottom: 20px;
+              }
+              @media #{$xs}{
+                    padding-bottom: 20px;
+              }
+
+          }
+
+
+          .breadcrumbs-list{
+
+              position:relative;
+
+                nav{
+                  position: absolute;
+                  right: 0;
+                  bottom: -170px;
+                  background: $theme-color1;
+                  padding: 20px 30px;
+                  border-radius: 50px;z-index: 123;
+
+                @media #{$lg}{
+                       bottom: -174px;
+                }
+                @media #{$md}{
+                       bottom: -195px;
+                }
+                @media #{$xs}{
+                       bottom: -100px;
+              
+                  right: unset;
+                  left: 0;
+
+                }
+
+                ol.breadcrumb{
+                  color: $white;margin-bottom: 0px;
+                  li.breadcrumb-item{
+                    color: $white;
+                    a{
+                      color: $white;
+                    }
+                  }
+                  li.active{
+                    color: #ddd;
+                  }
+                }
+
+                .breadcrumb-item+.breadcrumb-item::before {
+                    float: left;
+                    padding-right: .5rem;
+                    color: #fff;
+                    content: var(--bs-breadcrumb-divider, "/");
+                }
+
+
+              }
+
+
+
+
+            nav::after {
+              content: '';
+              width: 30px; height: 30px;
+              border-radius: 100%;
+              border: 6px solid $theme-color1;
+              position: absolute;
+              z-index: -1;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              animation: ring 1.5s infinite;
+            }
+
+            nav:hover::after, nav:focus::after {
+              animation: none;
+              display: none;
+            }
+
+            @keyframes ring {
+              0% {
+                width: 30px;
+                height: 30px;
+                opacity: 1;
+              }
+              100% {
+                width: 300px;
+                height: 300px;
+                opacity: 0;
+              }
+            }
+
+
+
+          }
+
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+}

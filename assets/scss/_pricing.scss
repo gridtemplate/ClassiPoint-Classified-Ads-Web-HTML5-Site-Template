@@ -1,0 +1,326 @@
+
+/*===========================
+  08. OUR PRICING SECTION  css 
+===========================*/
+
+
+
+
+
+
+.pricing-area{
+    background-color:$gray-bg;
+    @media #{$md}{
+        padding-top: 95px;
+        padding-bottom: 70px;
+    }
+    
+    @media #{$xs}{
+        padding-top: 75px;
+        padding-bottom: 50px;
+    }
+
+
+
+            .single-pricing{
+                background-color: $white;@include transition(0.3s);
+                padding: 50px
+               ;overflow: hidden;background-color:$white;
+                
+                @media #{$lg}{
+                    padding: 35px;
+                   
+                }
+                @media #{$md}{
+                    padding: 20px 20px 30px;
+                    
+                }
+                @media #{$xs}{
+                    padding: 20px 15px;
+                }
+                @media #{$sm}{
+                    padding: 50px;
+                }
+                
+                & .pricing-thumb{
+                    & img{
+                        width: 195px;
+                        height: 180px;
+                    }
+                }
+                & .pricing-price{
+                border: 1px dashed $theme-color1;@include transition(0.3s);
+                border-radius: 50%;
+                width: 200px;
+                height: 200px;
+                margin: 0px auto;
+                padding-top: 55px;
+
+                @media #{$md}{
+            width: 170px;
+                height: 170px;
+                padding-top: 50px;
+
+                    
+                }
+                @media #{$xs}{
+               
+                }
+                @media #{$sm}{
+                 
+                }
+                    & h2{
+                        font-size: 50px;
+                        font-weight: 400;
+                        
+                        @media #{$md}{
+                            font-size: 44px;
+                        }
+                        
+                        & span{
+                            font-size: 18px;
+                            color: $body-color;@include transition(0.3s);
+                            text-transform: uppercase;
+                            
+                            @media #{$md}{
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                    
+                    p{
+                        text-transform: uppercase;
+                        color: $theme-color1;@include transition(0.3s);
+                        
+                        @media #{$md}{
+                            font-size: 14px;
+                        }
+                    }
+                }
+                 
+                 .price-btn{
+                 	a{
+                        margin: 0px auto
+                    }
+                    .btn{
+                       overflow: hidden;display: block;
+                    }
+
+                }
+
+                & .pricing-content{
+                    ul.table-list{
+                        li{
+                                text-align: center;
+                z-index: 9;
+
+                padding: 10px 0;text-transform: capitalize;
+                        }
+                    }
+                }
+                
+                &.pricing-tow{
+                    & .pricing-price{
+                        & p{
+                            color: $theme-color1;@include transition(0.3s);
+                        }
+                    }
+                }
+
+                .main-btn{
+
+                    display: inline-block;
+                  vertical-align: middle;
+                  -webkit-transform: perspective(0) translateZ(0);
+                  transform: perspective(0) translateZ(0);
+                  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+                  -webkit-transition-property:$theme-color1;
+                  transition-property: $theme-color1;
+                  -webkit-transition-duration: 0.5s;
+                  transition-duration: 0.5s;
+                color: $white;
+                background: $theme-color1;border-radius: 4px;
+                    &::before{
+                      content: "";
+                      position: absolute;
+                      z-index: -1;
+                      top: 0;
+                      left: 0;
+                      right: 0;
+                      bottom: 0;
+                     
+                      background: $heading-color;
+                      -webkit-transform: scaleY(0);
+                      transform: scaleY(0);
+                      -webkit-transform-origin: 50% 0;
+                      transform-origin: 50% 0;
+                      -webkit-transition-property: transform;
+                      transition-property: transform;
+                      -webkit-transition-duration: 0.5s;
+                      transition-duration: 0.5s;
+                      -webkit-transition-timing-function: ease-out;
+                      transition-timing-function: ease-out;border-radius: 4px;
+
+                      }
+
+            }
+
+
+
+
+                &:hover{
+                    background-color:$theme-color1;
+                    @include transition(0.5s);
+         
+
+
+                        .main-btn{
+
+                              &::before{
+                              -webkit-transform: scaleX(1);color: $white !important;
+                              transform: scaleX(1);
+                              -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+                              transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+
+                              }
+                              &::before{
+                              -webkit-transform: scaleX(1);
+                              transform: scaleX(1);
+                              -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+                              transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+
+                              }
+                              &:active:before{
+                              -webkit-transform: scaleX(1);
+                              transform: scaleX(1);
+                              -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+                              transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+
+                            }
+                              
+                        }
+
+                        & .pricing-price{
+                        border: 1px dashed $white;;@include transition(0.5s);
+                              & h2{
+
+                                
+                                & span{
+                               
+                                   color: $heading-color;@include transition(0.5s);
+    
+                                
+                                }
+                            }
+                            
+                            p{
+                                
+                               color: $white !important;@include transition(0.5s);
+                                
+                              
+                            }
+                        }
+                        & .pricing-content{
+                            ul.table-list{
+                                li{
+                                        color: $white;
+                                }
+                            }
+                        }
+                    
+                 
+
+
+                }
+            }
+
+            .middle-align{
+                background-color:$theme-color1;
+
+                & .pricing-price{
+                border: 1px dashed $white;;@include transition(0.5s);
+                      & h2{
+                        font-size: 50px;
+                        font-weight: 400;
+                        
+                        @media #{$md}{
+                            font-size: 44px;
+                        }
+                        
+                        & span{
+                            font-size: 18px;
+                           color: $heading-color;
+                            text-transform: uppercase;
+                            
+                            @media #{$md}{
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                    
+                    p{
+                        text-transform: uppercase;
+                       color: $white !important;
+                        
+                        @media #{$md}{
+                            font-size: 14px;
+                        }
+                    }
+                }
+                & .pricing-content{
+                    ul.table-list{
+                        li{
+                                color: $white;
+                        }
+                    }
+                }
+
+                .main-btn{
+
+                    display: inline-block;
+                  vertical-align: middle;
+                  -webkit-transform: perspective(0) translateZ(0);
+                  transform: perspective(0) translateZ(0);
+                  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+                  -webkit-transition-property:$heading-color;
+                  transition-property: $heading-color;
+                  -webkit-transition-duration: 0.5s;
+                  transition-duration: 0.5s;
+                color: $white;
+                background: $heading-color;border-radius: 4px;
+                    &::before{
+                      content: "";
+                      position: absolute;
+                      z-index: -1;
+                      top: 0;
+                      left: 0;
+                      right: 0;
+                      bottom: 0;
+                     
+                      background: $theme-color1;
+                      -webkit-transform: scaleY(0);
+                      transform: scaleY(0);
+                      -webkit-transform-origin: 50% 0;
+                      transform-origin: 50% 0;
+                      -webkit-transition-property: transform;
+                      transition-property: transform;
+                      -webkit-transition-duration: 0.5s;
+                      transition-duration: 0.5s;
+                      -webkit-transition-timing-function: ease-out;
+                      transition-timing-function: ease-out;border-radius: 4px;
+
+                      }
+
+            }
+
+
+
+
+            }
+
+
+
+
+
+
+}

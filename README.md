@@ -80,7 +80,7 @@ Adding to all this enjoy a lifetime of FREE updates!
 <li><strong>Jquery v3.5.1</strong>: <a href="https://jquery.com/download/" rel="nofollow">https://jquery.com/download/</a></li>
   <li><strong>Slick Slider</strong>: <a href="https://kenwheeler.github.io/slick/" rel="nofollow">https://kenwheeler.github.io/slick/</a></li>
 <li><strong>Roboto</strong>: <a href="https://fonts.google.com/specimen/Roboto" rel="nofollow">https://fonts.google.com/specimen/Roboto</a></li>
-<li><strong>Montserrat</strong>: <a href="https://fonts.google.com/specimen/Montserrat" rel="nofollow">https://fonts.google.com/specimen/Montserrat</a></li>
+<li><strong>Montserrat</strong>: <a href="https://fonts.google.com/specimen/Poppins" rel="nofollow">https://fonts.google.com/specimen/Poppins</a></li>
 <li><strong>Flaticon</strong>: <a href="https://www.flaticon.com/" rel="nofollow">https://www.flaticon.com/</a></li>
 
 </ul>

@@ -14,9 +14,9 @@
 <td align="center"><strong>Home three</strong></td>
 </tr>
 <tr>
-<td align="center"><a href="https://preview.gridtemplate.com/themes/poko/index1.html" rel="nofollow"><img src="https://user-images.githubusercontent.com/82708956/128346119-f941e578-e9c2-4016-9eb8-114f5b67e1fc.jpg" alt="" style="max-width:100%;"></a></td>
-<td align="center"><a href="https://preview.gridtemplate.com/themes/poko/index2.html" rel="nofollow"><img src="https://user-images.githubusercontent.com/82708956/128346274-55811763-6560-45dc-8c23-a72471341e8d.png" alt="" style="max-width:100%;"></a></td>
-<td align="center"><a href="https://preview.gridtemplate.com/themes/poko/index1.html" rel="nofollow"><img src="https://user-images.githubusercontent.com/82708956/128346293-d5c1126c-4912-49b1-8363-c2b998f939e0.png" alt="" style="max-width:100%;"></a></td>
+<td align="center"><a href="https://preview.gridtemplate.com/themes/classipoint/" rel="nofollow"><img src="https://user-images.githubusercontent.com/82708956/128397805-8dd9dc53-b4af-4186-bf1d-8447f92d2af9.png" alt="" style="max-width:100%;"></a></td>
+<td align="center"><a href="https://preview.gridtemplate.com/themes/classipoint/index2.html" rel="nofollow"><img src="https://user-images.githubusercontent.com/82708956/128398060-0f69babb-f396-41cb-974f-3a52a455ae51.png" alt="" style="max-width:100%;"></a></td>
+<td align="center"><a href="https://preview.gridtemplate.com/themes/classipoint/index3.html" rel="nofollow"><img src="https://user-images.githubusercontent.com/82708956/128398195-4c2082a3-01b9-4a41-8443-0de448562445.png" alt="" style="max-width:100%;"></a></td>
 
 </tr>
 

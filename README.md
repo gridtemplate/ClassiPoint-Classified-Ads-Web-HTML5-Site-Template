@@ -37,36 +37,36 @@
 <h3><strong>ClassiPoint</strong>Template Features::-</h3>
 Adding to all this enjoy a lifetime of FREE updates!
 <ul>
- 	<li>• 3 Styles Of Home Pages</li>
- 	<li>• 22 HTML Pages</li>
- 	<li>• Bootstrap 5.1 • Responsive Framework</li>
- 	<li>• Well Commented Code</li>
- 	<li>• 24 * 7 Professional Company Support</li>
- 	<li>• Regular Updates</li>
- 	<li>• Select2</li>
- 	<li>• Different Styles of Listing Pages</li>
- 	<li>• Different Styles of Details Pages</li>
- 	<li>• Multiple Blog Pages</li>
- 	<li>• Slick Slider</li>
- 	<li>• Error Page</li>
- 	<li>• User Profile</li>
- 	<li>• Easy to customize</li>
- 	<li>• Google Fonts</li>
- 	<li>• Pricing Tables</li>
- 	<li> 	<li>• Very Easy to Create your Own Site</li>
- 	<li>• Neat, clean, and simple design</li>
- 	<li>• W3C Validated</li>
+ 	<li> 3 Styles Of Home Pages</li>
+ 	<li> 22 HTML Pages</li>
+ 	<li> Bootstrap 5.1 • Responsive Framework</li>
+ 	<li> Well Commented Code</li>
+ 	<li> 24 * 7 Professional Company Support</li>
+ 	<li> Regular Updates</li>
+ 	<li> Select2</li>
+ 	<li> Different Styles of Listing Pages</li>
+ 	<li> Different Styles of Details Pages</li>
+ 	<li> Multiple Blog Pages</li>
+ 	<li> Slick Slider</li>
+ 	<li> Error Page</li>
+ 	<li> User Profile</li>
+ 	<li> Easy to customize</li>
+ 	<li> Google Fonts</li>
+ 	<li> Pricing Tables</li>
+ 	<li>  Very Easy to Create your Own Site</li>
+ 	<li> Neat, clean, and simple design</li>
+ 	<li> W3C Validated</li>
  	<li>What do you get?</li>
- 	<li>• All HTML files.</li>
- 	<li>• SCSS Files.</li>
- 	<li>• CSS Files.</li>
- 	<li>• JS Files</li>
+ 	<li> All HTML files.</li>
+ 	<li> SCSS Files.</li>
+ 	<li> CSS Files.</li>
+ 	<li> JS Files</li>
 </ul>
 <h2>Download And installation</h2>
 <p>Download this template from any following options:</p>
 <ul>
 <li>Download from Github</li>
-<li>Clone the repository: <code>git clone https://github.com/gridtemplate/Poko-App-Saas-Landing-Page-HTML-Template.git</code></li>
+<li>Clone the repository: <code>git clone https://github.com/gridtemplate/ClassiPoint-Classified-Ads-Web-HTML5-Site-Template.git</code></li>
 <li>Download from GridTemplate</li>
 </ul>
 
@@ -78,9 +78,9 @@ Adding to all this enjoy a lifetime of FREE updates!
 <ul>
 <li><strong>Bootstrap v5+</strong>: <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" rel="nofollow">https://getbootstrap.com/docs/5.0/getting-started/introduction/</a></li>
 <li><strong>Jquery v3.5.1</strong>: <a href="https://jquery.com/download/" rel="nofollow">https://jquery.com/download/</a></li>
-  <li><strong>Swiper Js Slider</strong>: <a href="https://swiperjs.com/" rel="nofollow">https://swiperjs.com/</a></li>
+  <li><strong>Slick Slider</strong>: <a href="https://kenwheeler.github.io/slick/" rel="nofollow">https://kenwheeler.github.io/slick/</a></li>
 <li><strong>Roboto</strong>: <a href="https://fonts.google.com/specimen/Roboto" rel="nofollow">https://fonts.google.com/specimen/Roboto</a></li>
-<li><strong>Nunito</strong>: <a href="https://fonts.google.com/specimen/Nunito" rel="nofollow">https://fonts.google.com/specimen/Nunito</a></li>
+<li><strong>Montserrat</strong>: <a href="https://fonts.google.com/specimen/Montserrat" rel="nofollow">https://fonts.google.com/specimen/Montserrat</a></li>
 <li><strong>Flaticon</strong>: <a href="https://www.flaticon.com/" rel="nofollow">https://www.flaticon.com/</a></li>
 
 </ul>

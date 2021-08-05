@@ -28,7 +28,7 @@
 </table>
 <p>👉🏻<a href="https://www.gridtemplate.com/templates/classipoint-classified-ads-web-html5-site-template/" rel="nofollow">View Live Preview</a></p>
 <strong>ClassiPoint</strong> HTML5 Template is provides a powerful way to showcase your work and Promote your business.
-<h3><strong>Poko</strong>File Included in::-</h3>
+<h3><strong>ClassiPoint </strong>File Included in::-</h3>
 <ul>
  	<li>01_Homepage</li>
  	<li>02_Homepage</li>
